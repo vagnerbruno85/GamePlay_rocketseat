@@ -13,11 +13,7 @@ export default function SignIn () {
 
     return (
         <View style={styles.container}>
-            <StatusBar 
-                barStyle="light-content"
-                backgroundColor="transparent"
-                translucent
-            />
+            
             <Image 
                 source={Illustration} 
                 style={styles.image} 
@@ -25,7 +21,7 @@ export default function SignIn () {
             
             
             <View style={styles.content}>
-                <Text style={styles.title}>Organize{`\n`} seus jogos{`\n`} facilmente</Text>
+                <Text style={styles.title}>Conecte-se Organize{`\n`} seus jogos{`\n`} facilmente</Text>
                 <Text style={styles.subtitle}>Crie grupos para jogar seus games {`\n`}favoritos com seus amigos.</Text>
                 
             <ButtonIcon 
