@@ -1,31 +1,25 @@
  import React from 'react';
- import {createStackNavigator} from '@react-navigation/stack';
+ import {CardStyleInterpolators, createStackNavigator} from '@react-navigation/stack';
 
  import Home from '../screens/home';
  import SignIn from '../screens/SignIn';
 
- const { Navigator, Screen} = createStackNavigator();
+    //const { Navigator, Screen } = createStackNavigator();
+    const Stack = createStackNavigator()
 
  export function AuthRoutes() {
     return(
-        <Navigator 
-           screenOptions={{
-               headerShown:false,
-               cardStyle: {
-                   backgroundColor: 'transparent'
-               }
-           }}
-           
+        <Stack.Navigator 
         >
-            <Screen
+            <Stack.Screen
                 name='SignIn'
                 component={SignIn}
             />
-            <Screen
+            <Stack.Screen
                 name='Home'
                 component={Home}
             />
           
-        </Navigator>
+        </Stack.Navigator>
     )
  }
