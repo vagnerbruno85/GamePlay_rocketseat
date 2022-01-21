@@ -13,6 +13,6 @@ export const styles = StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         marginTop: getStatusBarHeight() + 26,
-        marginBotton: 42,
+        marginBottom: 42,
     }
 })

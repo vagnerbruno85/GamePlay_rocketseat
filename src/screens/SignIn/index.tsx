@@ -9,6 +9,7 @@ import { styles } from './styles';
 import Illustration from  '../../assets/illustration.png';
 import { ButtonIcon } from '../../components/ButtonIcon';
 
+
 export default function SignIn () {
 
     return (
@@ -28,7 +29,9 @@ export default function SignIn () {
                 title="Entrar com Discord"
                 activeOpacity={0.7}
                 />
+            
             </View>
+          
          </View>
     );
 }
