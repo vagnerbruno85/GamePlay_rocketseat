@@ -24,6 +24,5 @@ export function ButtonIcon ({title, ...rest}:Props) {
             </Text>
         </RectButton>
     )
-
 }
 

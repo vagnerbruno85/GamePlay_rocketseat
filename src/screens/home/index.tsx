@@ -6,7 +6,7 @@ import { Profile } from '../../components/Profile';
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { CategorySelect } from '../../components/categorySelect';
 
-export default function Home(){
+export function Home(){
     return (
         <View style={styles.container}>
             <View style={styles.header}>    

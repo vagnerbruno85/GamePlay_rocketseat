@@ -1,5 +1,3 @@
-const { getDefaultConfig } = require("@expo/metro-config");
-
 const { getDefaultConfig } = require("expo/metro-config");
 
 module.exports = (async() =>{
@@ -15,4 +13,4 @@ module.exports = (async() =>{
             sourceExts:[...sourceExts, "svg"]
         }
     };
-})();
+})(); 

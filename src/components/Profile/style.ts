@@ -5,7 +5,6 @@ export const styles = StyleSheet.create({
     container:{
         flexDirection:'row',
         alignItems: 'center',
-        backgroundColor:'red',
     },
     greeting:{
         fontFamily:theme.fonts.title500,

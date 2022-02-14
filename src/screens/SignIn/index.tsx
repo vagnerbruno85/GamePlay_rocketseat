@@ -9,7 +9,7 @@ import { ButtonIcon } from '../../components/ButtonIcon';
 
 
 
-export default function SignIn () {
+export function SignIn () {
     const navigation = useNavigation();
     
     function handleSignIn() {
@@ -29,7 +29,7 @@ export default function SignIn () {
                 <Text style={styles.subtitle}>Crie grupos para jogar seus games {`\n`}favoritos com seus amigos.</Text>
                 
             <ButtonIcon 
-                title="Entrar com Discord"
+                title="Entrar com Discord" 
                 onPress={handleSignIn}
                 />
             
