@@ -8,7 +8,7 @@ export const styles =StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         borderRadius:8,
-        marginRigth:8
+        marginRight:8,
     },
     content:{
         width: 100,
@@ -20,16 +20,16 @@ export const styles =StyleSheet.create({
         paddingVertical: 7
     },
     title:{
-        fontFamuly: theme.fonts.title500,
+        fontFamily: theme.fonts.title500,
         color: theme.colors.heading,
-        fontSize:15
+        fontSize:15,
     },
     checked:{
         width: 12,
         height:12,
         backgroundColor:theme.colors.primary,
         alignSelf:'flex-end',
-        arginRight:7,
+        marginRight:7,
         borderColor: theme.colors.secondary50,
         
         borderRadius: 3,
@@ -39,7 +39,7 @@ export const styles =StyleSheet.create({
         height:10,
         backgroundColor:theme.colors.secondary100,
         alignSelf:'flex-end',
-        arginRight:7,
+        marginRight:7,
         borderColor: theme.colors.secondary50,
         borderWidth: 2,
         borderRadius: 3,
